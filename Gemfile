@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'ruby', '2.3.4'
+
 gem 'rails', '~> 5.0.6'
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
@@ -21,6 +21,7 @@ gem 'omniauth-facebook'
 gem "paperclip", "~> 5.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~>1.1.0"
+gem 'aws-sdk', '~> 2.3.0'
 
 group :production do
   gem "pg"
